@@ -1,0 +1,13 @@
+{
+  "name": "Mgwezane Shuttle Services and Travel Agent",
+  "short_name": "Mgwezane",
+  "description": "Shuttle services, private trips and travel arrangements across South Africa.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f7f3",
+  "theme_color": "#0a2224",
+  "icons": [
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

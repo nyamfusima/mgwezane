@@ -3,12 +3,94 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#092b2b" />
-    <meta name="description" content="Mgwezane Shuttle Services and Travel Agent — private trips, shuttle transfers, parcel delivery and holiday travel between Polokwane, Johannesburg, Pretoria and beyond." />
-    <title>Mgwezane Shuttle Services | Every Journey, Expertly Planned</title>
+    <meta name="theme-color" content="#052a45" />
+
+    <title>Mgwezane Shuttle Services | Polokwane to Johannesburg &amp; Pretoria</title>
+    <meta
+      name="description"
+      content="Shuttle services, private trips and travel arrangements between Polokwane, Mokopane, Pretoria, Johannesburg and destinations across South Africa. View routes and prices, then enquire on WhatsApp."
+    />
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mgwezane Shuttle Services and Travel Agent" />
+    <meta property="og:title" content="Mgwezane Shuttle Services and Travel Agent" />
+    <meta
+      property="og:description"
+      content="Shuttle services, private trips and travel arrangements between Polokwane, Pretoria, Johannesburg and destinations across South Africa."
+    />
+    <meta property="og:locale" content="en_ZA" />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:image" content="%VITE_SITE_URL%/assets/journeys/hero-vehicle.jpg" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="1050" />
+    <meta property="og:image:alt" content="Illustrative stock photograph of a silver Kia Sorento" />
+    <meta name="twitter:card" content="summary_large_image" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // The hero vehicle only renders on the home page, so preloading it on
+      // /rates would download it for nothing. Injected rather than hard-coded
+      // because both routes share this one document.
+      (function () {
+        if (location.pathname.replace(/\/+$/, '') === '/rates') return
+        var wide = window.matchMedia('(min-width: 768px)').matches
+        var link = document.createElement('link')
+        link.rel = 'preload'
+        link.as = 'image'
+        link.href = wide
+          ? '/assets/journeys/hero-vehicle.jpg'
+          : '/assets/journeys/hero-vehicle-portrait.jpg'
+        link.imageSrcset = wide
+          ? '/assets/journeys/hero-vehicle-900.jpg 900w, /assets/journeys/hero-vehicle.jpg 1400w'
+          : '/assets/journeys/hero-vehicle-portrait-600.jpg 600w, /assets/journeys/hero-vehicle-portrait.jpg 900w'
+        link.imageSizes = '100vw'
+        document.head.appendChild(link)
+      })()
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Mgwezane Shuttle Services and Travel Agent",
+        "alternateName": "Mgwezane Shuttle Service",
+        "slogan": "Every journey. Expertly planned.",
+        "description": "Shuttle services, private trips, parcel delivery and travel arrangements between Polokwane, Mokopane, Johannesburg, Pretoria and destinations across South Africa.",
+        "telephone": "+27711047531",
+        "email": "janvusi.m@gmail.com",
+        "image": "/og-image.jpg",
+        "logo": "/assets/brand/mgwezane-logo.png",
+        "areaServed": [
+          { "@type": "City", "name": "Polokwane" },
+          { "@type": "City", "name": "Mokopane" },
+          { "@type": "City", "name": "Johannesburg" },
+          { "@type": "City", "name": "Pretoria" },
+          { "@type": "Country", "name": "South Africa" }
+        ],
+        "knowsLanguage": ["en-ZA"],
+        "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Shuttle trips" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private trips" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Airport transfers" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Parcel delivery" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vacation trips" } }
+        ]
+      }
+    </script>
   </head>
-  <body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

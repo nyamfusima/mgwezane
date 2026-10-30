@@ -1,0 +1,293 @@
+{
+  "note": "Destination and landscape photography on this website is licensed stock imagery sourced from Wikimedia Commons under the licences listed below. It was not taken by Mgwezane Shuttle Services and does not show trips the business has operated. Brand, poster and vehicle imagery under assets/brand and assets/vehicles was supplied by the client.",
+  "images": [
+    {
+      "file": "assets/destinations/limpopo-mountains.jpg",
+      "subject": "Sundown over one of the many beautiful mountain ranges found in Limpopo, South Africa. The valley in question ",
+      "photographer": "Eddie Oosthuizen",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Limpopo_Mountain_Sundown.jpg",
+      "sourceFile": "File:Limpopo Mountain Sundown.jpg"
+    },
+    {
+      "file": "assets/destinations/kruger-national-park.jpg",
+      "subject": "S63 Road, Pafuri Area, Kruger NP, Limpopo, SOUTH AFRICA",
+      "photographer": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Savanna_Elephant_(Loxodonta_africana)_bull_too_close_for_comfort_......_(52770206595).jpg",
+      "sourceFile": "File:Savanna Elephant (Loxodonta africana) bull too close for comfort ...... (52770206595).jpg"
+    },
+    {
+      "file": "assets/destinations/magoebaskloof.jpg",
+      "subject": "A view over Magoebaskloof, Limpopo, South Africa",
+      "photographer": "South African Tourism",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Magoebaskloof,_Limpopo,_South_Africa_(2417714031).jpg",
+      "sourceFile": "File:Magoebaskloof, Limpopo, South Africa (2417714031).jpg"
+    },
+    {
+      "file": "assets/destinations/mapungubwe.jpg",
+      "subject": "Vue du Limpopo en Afrique du Sud.",
+      "photographer": "South African Tourism from South Africa",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mapungubwe,_Limpopo,_South_Africa_(20535429052).jpg",
+      "sourceFile": "File:Mapungubwe, Limpopo, South Africa (20535429052).jpg"
+    },
+    {
+      "file": "assets/destinations/blyde-river-canyon.jpg",
+      "subject": "The Blyde River Canyon, Mpumalanga, South Africa.",
+      "photographer": "Simone Rignanese (@simone-rignanese-2151275871)",
+      "license": "Pexels License",
+      "source": "https://www.pexels.com/photo/majestic-panorama-of-blyde-river-canyon-south-africa-36168137/",
+      "sourceFile": "Blyde River Canyon panorama"
+    },
+    {
+      "file": "assets/destinations/three-rondavels.jpg",
+      "subject": "The so-called Three Rondavels at Blydepoort dam. Thes characteristic mountains are so-called because of their likeness to an indig",
+      "photographer": "Ad Meskens You are free to use this picture for any purpose as long as you credi",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Blyde_Rivier_Three_Rondavels_01.jpg",
+      "sourceFile": "File:Blyde Rivier Three Rondavels 01.jpg"
+    },
+    {
+      "file": "assets/destinations/lisbon-falls.jpg",
+      "subject": "R532 North of Graskop, Sabie, Mpumalanga, SOUTH AFRICA",
+      "photographer": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lisbon_Falls_..._(46065935084).jpg",
+      "sourceFile": "File:Lisbon Falls ... (46065935084).jpg"
+    },
+    {
+      "file": "assets/destinations/bourkes-luck-potholes.jpg",
+      "subject": "Bourke\u2019s Luck Potholes, Blyde River Canyon, Mpumalanga, South Africa",
+      "photographer": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Blyde_River_Canyon_Nature_Reserve_(ZA),_Blyde_River_--_2024_--_0002.jpg",
+      "sourceFile": "File:Blyde River Canyon Nature Reserve (ZA), Blyde River -- 2024 -- 0002.jpg"
+    },
+    {
+      "file": "assets/destinations/graskop-gorge.jpg",
+      "subject": "Motitsi Falls in Graskop Gorge in Blyde River Canyon Nature Reserve.",
+      "photographer": "Ad Meskens You are free to use this picture for any purpose as long as you credi",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Blyde_Rivier_Canyon_Graskop_Gorge_04.jpg",
+      "sourceFile": "File:Blyde Rivier Canyon Graskop Gorge 04.jpg"
+    },
+    {
+      "file": "assets/destinations/gods-window.jpg",
+      "subject": "The view from God's Window, Graskop, Mpumalanga, South Africa.",
+      "photographer": "Magda Ehlers (@magda-ehlers)",
+      "license": "Pexels License",
+      "source": "https://www.pexels.com/photo/aerial-photo-of-a-mountain-5078889/",
+      "sourceFile": "God's Window, Graskop"
+    },
+    {
+      "file": "assets/destinations/johannesburg.jpg",
+      "subject": "View from the Carlton Centre - Johannesburg's inner city went into decline when the \u2018Money\u2019 relocated to Sandt",
+      "photographer": "Andrew Moore",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Johannesburg%27s_inner_city.jpg",
+      "sourceFile": "File:Johannesburg's inner city.jpg"
+    },
+    {
+      "file": "assets/destinations/union-buildings.jpg",
+      "subject": "View over the Union Building gardens towards Pretoria CBD",
+      "photographer": "Derek Wolmarans",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Union_Building_Gardens,_Pretoria.jpg",
+      "sourceFile": "File:Union Building Gardens, Pretoria.jpg"
+    },
+    {
+      "file": "assets/destinations/hartbeespoort-dam.jpg",
+      "subject": "Hartbeespoort dam seen from the Magaliesberg, near Skeerpoort, Gauteng",
+      "photographer": "JMK",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hartbeespoortdam_vanaf_Magaliesberg,_b.jpg",
+      "sourceFile": "File:Hartbeespoortdam vanaf Magaliesberg, b.jpg"
+    },
+    {
+      "file": "assets/destinations/pilanesberg.jpg",
+      "subject": "A South African giraffe and blue wildebeest with their young at Mankwe Dam in Pilanesberg National Park in Nor",
+      "photographer": "Photograph by Mike Peel (www.mikepeel.net).",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Animals_at_Pilanesberg_National_Park_4.jpg",
+      "sourceFile": "File:Animals at Pilanesberg National Park 4.jpg"
+    },
+    {
+      "file": "assets/destinations/sun-city.jpg",
+      "subject": "Vue du North West en Afrique du Sud.",
+      "photographer": "South African Tourism from South Africa",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sun_City_Casino,_Sun_City,_North_West,_South_Africa_(20530983455).jpg",
+      "sourceFile": "File:Sun City Casino, Sun City, North West, South Africa (20530983455).jpg"
+    },
+    {
+      "file": "assets/destinations/golden-gate-highlands.jpg",
+      "subject": "Golden Gate Highlands National Park, South Africa",
+      "photographer": "Pavel \u0160pindler",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Highlands_National_Park,_South_Africa_-_panoramio_(4).jpg",
+      "sourceFile": "File:Golden Gate Highlands National Park, South Africa - panoramio (4).jpg"
+    },
+    {
+      "file": "assets/destinations/clarens.jpg",
+      "subject": "Mount Horeb (2,449 m) in the Rooiberge range, at Clarens, eastern Free State",
+      "photographer": "JMK",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Horeb-berg,_Clarens,_b.jpg",
+      "sourceFile": "File:Horeb-berg, Clarens, b.jpg"
+    },
+    {
+      "file": "assets/destinations/drakensberg.jpg",
+      "subject": "A spectacular view of Cathkin peak, Sterk Horn and the Turret at Monk's Cowl in the heart of the Drakensberg m",
+      "photographer": "Soaring Heights Imagery",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cathkin_Peak,_Central_Drakenberg.jpg",
+      "sourceFile": "File:Cathkin Peak, Central Drakenberg.jpg"
+    },
+    {
+      "file": "assets/destinations/durban-beachfront.jpg",
+      "subject": "Skyline of Durban, South Africa, from helicopter. Vetchies pier. The red building in the middle ist Addington Hospital, followed b",
+      "photographer": "Steve Roetz from Durban, South Africa",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Durban_beach.jpg",
+      "sourceFile": "File:Durban beach.jpg"
+    },
+    {
+      "file": "assets/destinations/howick-falls.jpg",
+      "subject": "Howick Falls on the Umgeni River, South Africa, in November after a few days with some fairly heavy rain.",
+      "photographer": "Bj\u00f8rn Christian T\u00f8rrissen",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Howick-Falls-November-2009.jpg",
+      "sourceFile": "File:Howick-Falls-November-2009.jpg"
+    },
+    {
+      "file": "assets/destinations/tsitsikamma.jpg",
+      "subject": "Coast, Tsitsikamma National Park, Eastern Cape, South AfricaTsitsikamma National Park is located on the famous",
+      "photographer": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tsitsikamma_National_Park_(ZA),_K%C3%BCste_--_2024_--_1971.jpg",
+      "sourceFile": "File:Tsitsikamma National Park (ZA), K\u00fcste -- 2024 -- 1971.jpg"
+    },
+    {
+      "file": "assets/destinations/hole-in-the-wall.jpg",
+      "subject": "Hole in the Wall in Transkei, South Africa",
+      "photographer": "Bernard303",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hole_in_the_Wall.jpg",
+      "sourceFile": "File:Hole in the Wall.jpg"
+    },
+    {
+      "file": "assets/destinations/addo-elephant-park.jpg",
+      "subject": "Elephant at the Hapoor Dam in the Addo Elephant National Park",
+      "photographer": "NJR ZA",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Addo_Elephant_National_Park-001.jpg",
+      "sourceFile": "File:Addo Elephant National Park-001.jpg"
+    },
+    {
+      "file": "assets/destinations/cape-town.jpg",
+      "subject": "The City Bowl area of Cape Town and Table Mountain seen from the roof of the Strand South hotel",
+      "photographer": "Daniel Case",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Bowl_and_Table_Mountain_at_dawn.jpg",
+      "sourceFile": "File:Cape Town City Bowl and Table Mountain at dawn.jpg"
+    },
+    {
+      "file": "assets/destinations/camps-bay.jpg",
+      "subject": "Camps Bay beach and suburb nestled between the Atlantic Ocean and the Twelve Apostles mountain range.",
+      "photographer": "lumoplank",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Town_coastal_suburbs_-_CapeTowncoastal4192.jpg",
+      "sourceFile": "File:Cape Town coastal suburbs - CapeTowncoastal4192.jpg"
+    },
+    {
+      "file": "assets/destinations/cape-point.jpg",
+      "subject": "Cape Point cliffs",
+      "photographer": "Raita Futo from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Point_cliffs_(47337758472).jpg",
+      "sourceFile": "File:Cape Point cliffs (47337758472).jpg"
+    },
+    {
+      "file": "assets/destinations/boulders-beach.jpg",
+      "subject": "Simon's Town, Cape Town, South Africa",
+      "photographer": "Casey Allen westbeach013",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Penguins_at_Boulders_Beach_(Unsplash).jpg",
+      "sourceFile": "File:Penguins at Boulders Beach (Unsplash).jpg"
+    },
+    {
+      "file": "assets/destinations/knysna-heads.jpg",
+      "subject": "East and West Head of the Knysna River (towards the ocean), Knysna, Western Cape, South Africa",
+      "photographer": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Knysna_(ZA),_Knysna_River,_East_and_West_Head_--_2024_--_2456.jpg",
+      "sourceFile": "File:Knysna (ZA), Knysna River, East and West Head -- 2024 -- 2456.jpg"
+    },
+    {
+      "file": "assets/destinations/paarl-winelands.jpg",
+      "subject": "Paarl derived from Parel, meaning Pearl in Dutch is a town in the Western Cape province of South Africa. Its the third oldest Euro",
+      "photographer": "Harvey Barrison from Massapequa, NY, USA",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Paarl_vineyard-001.jpg",
+      "sourceFile": "File:Paarl vineyard-001.jpg"
+    },
+    {
+      "file": "assets/destinations/namaqualand.jpg",
+      "subject": "Carpet of Namaqualand daisies on abandoned fields. Skilpad, Namaqua National Park, Northern Cape, South Africa",
+      "photographer": "LBM1948",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sur%C3%A1frica,_Namaqualand_04.jpg",
+      "sourceFile": "File:Sur\u00e1frica, Namaqualand 04.jpg"
+    },
+    {
+      "file": "assets/destinations/augrabies-falls.jpg",
+      "subject": "Augrabief\u00e4lle im Oktober 2019",
+      "photographer": "Svwmal",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Augrabies_Falls_oct2019.jpg",
+      "sourceFile": "File:Augrabies Falls oct2019.jpg"
+    },
+    {
+      "file": "assets/destinations/kgalagadi.jpg",
+      "subject": "Leopard (Panthera pardus) in Kgalagadi Transfrontier Park.",
+      "photographer": "Stephen Temple from Cape Town, South Africa",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Leopard,_Kgalagadi_Transfrontier_Park_1M2A5692_(31036000687).jpg",
+      "sourceFile": "File:Leopard, Kgalagadi Transfrontier Park 1M2A5692 (31036000687).jpg"
+    },
+    {
+      "file": "assets/journeys/hero-vehicle.jpg",
+      "subject": "A silver and black Kia Sorento parked beside a lit bridge at night. Illustrative stock photography of the type of vehicle, not a photograph of a Mgwezane vehicle.",
+      "photographer": "Hyundai Motor Group (@hyundaimotorgroup)",
+      "license": "Pexels License",
+      "source": "https://www.pexels.com/photo/silver-kia-at-night-23655821/",
+      "sourceFile": "Silver Kia at Night"
+    },
+    {
+      "file": "assets/journeys/hero-vehicle-portrait.jpg",
+      "subject": "A silver and black Kia Sorento parked beside a lit bridge at night. Illustrative stock photography of the type of vehicle, not a photograph of a Mgwezane vehicle.",
+      "photographer": "Hyundai Motor Group (@hyundaimotorgroup)",
+      "license": "Pexels License",
+      "source": "https://www.pexels.com/photo/silver-kia-at-night-23655821/",
+      "sourceFile": "Silver Kia at Night"
+    },
+    {
+      "file": "assets/journeys/mountain-road.jpg",
+      "subject": "Watervals River Pass, north of Lydenburg, Mpumalanga",
+      "photographer": "JMK",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Watervalsrivierpas,_Lydenburg,_Mpumalanga.jpg",
+      "sourceFile": "File:Watervalsrivierpas, Lydenburg, Mpumalanga.jpg"
+    },
+    {
+      "file": "assets/journeys/kalahari-dusk.jpg",
+      "subject": "Powerfull even he is small in picture.",
+      "photographer": "JOBOGAERTS",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kalahari_in_Kgalagadi_Transfrontier_Park_South_Africa_(2).jpg",
+      "sourceFile": "File:Kalahari in Kgalagadi Transfrontier Park South Africa (2).jpg"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+@import 'tailwindcss';
+
+/* ---------------------------------------------------------------------------
+   Mgwezane Shuttle Services — design tokens.
+
+   The ink greens and the champagne gold are the brand palette. The azure is the
+   blue in the logo wordmark, used only for focus rings so that focus is never
+   confused with a gold accent. The green is WhatsApp's, used only on the
+   controls that open WhatsApp.
+   --------------------------------------------------------------------------- */
+@theme {
+  --color-ink-950: #031c30;
+  --color-ink-900: #052a45;
+  --color-ink-800: #0070b3;
+  --color-ink-700: #0090e0;
+  --color-ink-600: #3aa9ea;
+
+  --color-gold-700: #8c6d2f;
+  --color-gold-600: #a8863f;
+  --color-gold-500: #c5a15b;
+  --color-gold-400: #d4b574;
+  --color-gold-200: #e9dcbd;
+
+  --color-paper: #f8f7f3;
+  --color-parchment: #ece6da;
+  --color-parchment-600: #d6cdb9;
+  --color-charcoal: #1d2430;
+  --color-slate-ink: #4f6272;
+  --color-azure: #0090e0;
+  --color-whatsapp: #25d366;
+
+  --font-display: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-azure);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-gold-500);
+    color: var(--color-ink-950);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* --- Type scale -------------------------------------------------------- */
+
+@utility display-hero {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2.6rem, 1.4rem + 4.2vw, 5.2rem);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+}
+
+@utility display-lg {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.9rem, 1.3rem + 2.2vw, 3.1rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+@utility display-md {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.3rem, 1.1rem + 0.9vw, 1.75rem);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+@utility display-sm {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.15rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+/* A quiet tracked label. Used only where it carries information — a province,
+   a section number, a route group — never as decoration above a heading. */
+@utility micro {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+@utility tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+/* Dot leaders for the fare sheet — the rule that carries the eye from a
+   destination across to its price, the way a printed tariff card does. */
+@utility leader {
+  flex: 1 1 auto;
+  min-width: 1.25rem;
+  margin-inline: 0.6rem;
+  border-bottom: 1px dotted #c0b6a0;
+  transform: translateY(-0.3em);
+}
+
+@utility shell {
+  width: min(78rem, 100% - 2.5rem);
+  margin-inline: auto;
+}
+
+@utility shell-narrow {
+  width: min(58rem, 100% - 2.5rem);
+  margin-inline: auto;
+}
+
+.destination-track {
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.destination-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* The gold hairline that separates a dark band from what comes before it. */
+@utility gold-rule {
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    var(--color-gold-500) 18%,
+    var(--color-gold-500) 82%,
+    transparent
+  );
+}
