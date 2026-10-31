@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { motion, useReducedMotion, useScroll, useTransform } from 'motion/react'
 import { ArrowRight } from '../data/icons'
 import { EASE } from './motion/Reveal'
@@ -12,6 +12,15 @@ type HeroProps = {
 export function Hero({ onBook }: HeroProps) {
   const ref = useRef<HTMLElement>(null)
   const reduced = useReducedMotion()
+  const [playVideo, setPlayVideo] = useState(false)
+  const [ready, setReady] = useState(false)
+
+  // Video only on desktop-sized screens, with motion allowed and no data-saver or slow connection.
+  useEffect(() => {
+    const conn = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection
+    const slow = conn?.saveData || /(^|-)2g$/.test(conn?.effectiveType ?? '')
+    setPlayVideo(!reduced && !slow && window.matchMedia('(min-width: 768px)').matches)
+  }, [reduced])
 
   // The photograph drifts a little slower than the page, and dims as it leaves.
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] })
@@ -34,32 +43,43 @@ export function Hero({ onBook }: HeroProps) {
         transition={{ duration: 1.8, ease: EASE }}
       >
         <picture>
-          <source
-            media="(max-width: 767px)"
-            srcSet="/assets/journeys/hero-vehicle-portrait-600.jpg 600w, /assets/journeys/hero-vehicle-portrait.jpg 900w"
-            sizes="100vw"
-          />
+          <source media="(max-width: 767px)" srcSet="/assets/hero/hero-poster-mobile.webp" type="image/webp" />
           <img
-            src="/assets/journeys/hero-vehicle.jpg"
-            srcSet="/assets/journeys/hero-vehicle-900.jpg 900w, /assets/journeys/hero-vehicle.jpg 1400w"
-            sizes="100vw"
-            width={1400}
-            height={1050}
-            alt="A silver Kia Sorento photographed beside a city bridge at night; illustrative stock photography, not a Mgwezane vehicle"
+            src="/assets/hero/hero-poster.webp"
+            width={1600}
+            height={900}
+            alt=""
             {...{ fetchpriority: 'high' }}
-            className="h-full w-full object-cover object-[58%_center] md:object-[center_55%]"
+            className="h-full w-full object-cover object-[60%_center]"
           />
         </picture>
+        {playVideo && (
+          <video
+            className={`absolute inset-y-0 left-0 h-full w-full object-cover transition-opacity duration-1000 ${ready ? 'opacity-100' : 'opacity-0'}`}
+            poster="/assets/hero/hero-poster.webp"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            aria-hidden
+            onCanPlay={() => setReady(true)}
+            onError={() => setPlayVideo(false)}
+          >
+            <source src="/assets/hero/hero.webm" type="video/webm" />
+            <source src="/assets/hero/hero.mp4" type="video/mp4" />
+          </video>
+        )}
       </motion.div>
 
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-ink-950/35"
+        className="absolute inset-0 -z-10 bg-black/20 md:bg-transparent"
       />
 
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-linear-to-t from-ink-950/95 via-ink-950/55 to-ink-950/25 md:bg-linear-to-r md:from-ink-950/95 md:from-5% md:via-ink-950/72 md:via-43% md:to-ink-950/5"
+        className="absolute inset-0 -z-10 bg-linear-to-t from-black/80 via-black/45 to-black/10 md:bg-linear-to-r md:from-black/60 md:from-2% md:via-black/25 md:via-35% md:to-black/0 md:to-60%"
       />
 
       <motion.div
@@ -72,7 +92,7 @@ export function Hero({ onBook }: HeroProps) {
           animate={reduced ? undefined : { opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1, ease: EASE }}
         >
-          Shuttle & private transport
+          MGWEZANE SHUTTLE SERVICES
         </motion.p>
         <h1 className="display-hero max-w-[16ch] text-balance text-paper">
           {LINES.map((line, index) => (
@@ -106,7 +126,7 @@ export function Hero({ onBook }: HeroProps) {
               onClick={onBook}
               className="group inline-flex items-center gap-3 bg-azure px-7 py-4 text-[0.85rem] font-bold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-ink-800"
             >
-              Book Your Journey
+              BOOK YOUR JOURNEY
               <ArrowRight
                 size={16}
                 aria-hidden
@@ -114,10 +134,10 @@ export function Hero({ onBook }: HeroProps) {
               />
             </button>
             <a
-              href="/rates"
+              href="#services"
               className="group inline-flex items-center gap-2.5 border border-paper/35 px-7 py-4 text-[0.85rem] font-semibold text-paper transition-all duration-300 hover:-translate-y-0.5 hover:border-gold-400 hover:text-gold-400"
             >
-              View Routes & Prices
+              EXPLORE OUR SERVICES
               <ArrowRight
                 size={16}
                 aria-hidden

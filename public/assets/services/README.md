@@ -1,14 +1,20 @@
 # Service photography
 
-Licensed stock photographs from Pexels (Pexels License: free for commercial use, attribution
-not required but given here). They are illustrative only. They are not photographs of
-Mgwezane vehicles, staff or customers. Files were downloaded at 1000px wide.
+Photography for the services section, shown in circular crops. Each stock file is a
+1000x1000 WebP, square-cropped from the original (2400px long edge download) and
+compressed. `vacation-trips.jpg` was supplied by the client and is unchanged.
+
+All stock photos are from Pexels and used under the [Pexels License](https://www.pexels.com/license/):
+free for commercial use, no attribution required (given here anyway). They are
+illustrative stock images, not photographs of Mgwezane vehicles, staff or customers, and
+are not used to suggest endorsement by anyone shown. Most are not South African
+locations; Pexels search offered no suitable South African photographs for these services.
 
 | File | Photo | Photographer | Source |
 | --- | --- | --- | --- |
-| private-trips.jpg | Man getting into a black car | Pavel Danilyuk | https://www.pexels.com/photo/man-getting-into-his-black-car-8425040/ |
-| shuttle-services.jpg | White minivan at an airport terminal | mzynasx (@mzynasx) | https://www.pexels.com/photo/white-minivan-parked-at-modern-airport-terminal-39075475/ |
-| vacation-trips.jpg | Highway between green mountains | lureofadventure (@lureofadventure) | https://www.pexels.com/photo/highway-between-green-mountains-11357903/ |
-| weddings-events.jpg | Bride and groom in a convertible car | optical-service (@optical-service-839760784) | https://www.pexels.com/photo/a-bride-and-groom-are-riding-in-a-convertible-car-26989692/ |
-| funeral-transport.jpg | Vintage black car on a pavement | Mehmet Turgut Kirkgoz (@tkirkgoz) | https://www.pexels.com/photo/vintage-black-car-on-pavement-18371032/ |
-| parcel-delivery.jpg | Courier organising packages beside a van | Tima Miroshnichenko | https://www.pexels.com/photo/delivery-driver-checking-the-packages-6169047/ |
+| private-trips.webp | Professional chauffeur standing beside a luxury black SUV | Lee Salem (@charlotteblackcarservice) | https://www.pexels.com/photo/36377051/ |
+| shuttle-services.webp | White minivan parked at a modern airport terminal | Yazid N (@mzynasx) | https://www.pexels.com/photo/39075475/ |
+| weddings-events.webp | Newlywed couple in front of a decorated car | Wilfred Tadjo (@wilfredtadjo1994) | https://www.pexels.com/photo/6508574/ |
+| funeral-transport.webp | Pallbearers carrying a casket in a church (no faces in focus) | Tosin Superson (@tosinsuperson) | https://www.pexels.com/photo/20668753/ |
+| parcel-delivery.webp | Courier carrying a parcel beside a delivery van | Kindel Media (@kindelmedia) | https://www.pexels.com/photo/6868184/ |
+| vacation-trips.jpg | Blyde River Canyon, Mpumalanga | — | Supplied by the client |

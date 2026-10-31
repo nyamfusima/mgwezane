@@ -35,7 +35,7 @@ export function Services() {
 
               <div className="mt-6 aspect-square w-full max-w-[17rem] overflow-hidden rounded-full bg-parchment shadow-[0_18px_40px_-18px_rgba(3,28,48,0.45)] ring-1 ring-ink-900/5">
                 <img
-                  src={`/assets/services/${service.image}.jpg`}
+                  src={`/assets/services/${service.image}`}
                   width={1000}
                   height={1000}
                   loading="lazy"
