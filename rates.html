@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      The routes & prices page is its own document so that crawlers reading
+      /rates get the fares page's own title, description and share card rather
+      than the home page's. Both documents boot the same React bundle; App.tsx
+      picks the view from the path. Keep the shared tags below in step with
+      index.html when the business details change.
+    -->
+    <title>Routes &amp; Prices | Mgwezane Shuttle Services</title>
+    <meta name="description" content="Shuttle, private trip and airport transfer fares from Polokwane and Mokopane to Pretoria, Johannesburg and destinations across South Africa. View the routes and prices, then book on WhatsApp." />
+    <link rel="canonical" href="https://mgwezane-2adq.vercel.app/rates" />
+    <meta name="theme-color" content="#052a45" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mgwezane Shuttle Services" />
+    <meta property="og:title" content="Routes &amp; Prices | Mgwezane Shuttle Services" />
+    <meta property="og:description" content="Shuttle, private trip and airport transfer fares from Polokwane and Mokopane to Pretoria, Johannesburg and destinations across South Africa. View the routes and prices, then book on WhatsApp." />
+    <meta property="og:locale" content="en_ZA" />
+    <meta property="og:url" content="https://mgwezane-2adq.vercel.app/rates" />
+    <meta property="og:image" content="https://mgwezane-2adq.vercel.app/og-image.jpg" />
+    <meta property="og:image:secure_url" content="https://mgwezane-2adq.vercel.app/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Mgwezane Shuttle Services logo beside a Kia Sorento SUV driving on a mountain road" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Routes &amp; Prices | Mgwezane Shuttle Services" />
+    <meta name="twitter:description" content="Shuttle, private trip and airport transfer fares from Polokwane and Mokopane to Pretoria, Johannesburg and destinations across South Africa. View the routes and prices, then book on WhatsApp." />
+    <meta name="twitter:image" content="https://mgwezane-2adq.vercel.app/og-image.jpg" />
+    <meta name="twitter:image:alt" content="Mgwezane Shuttle Services logo beside a Kia Sorento SUV driving on a mountain road" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

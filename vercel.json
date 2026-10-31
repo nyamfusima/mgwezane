@@ -1,0 +1,4 @@
+{
+  "cleanUrls": true,
+  "rewrites": [{ "source": "/rates/", "destination": "/rates.html" }]
+}
